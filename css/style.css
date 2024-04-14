@@ -8,23 +8,61 @@ body {
     font-family: sans-serif;
 }
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
 article {
-    background-color: aqua;
-    width: 100vw;
     height: 100vh;
-
-
-
-}
-nav {
-    width: 95%;
-
 }
 
+.item-1, 
+.item-2,
+.item-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 30px;
 
-li {
-    position: absolute;
+    color: black;
+    font-weight: bold;
 
+    background-color: white;
+    border-radius: 50%;
+    height: 33px;
+    width: 33px;
+}
+
+.item-1 {
+    right: 160px;
+}
+.item-2 {
+    right:90px
+}
+.item-3 {
+    right: 20px;
+}
+
+#foto-vans {
+    background-color: #ff0000;
+    
+}
+
+#foto-tommy {
+    background-color: #008000;
 
 }
+
+article#foto-converse {
+    background-color: #ffff00;
+} 
 
